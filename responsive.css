@@ -1,0 +1,118 @@
+/*タブレット表示*/
+@media(max-width:1000px){
+
+  .header-list{
+    font-size: initial;
+  }
+
+  .main-side{
+    display: initial;
+  }
+
+  .main-bar{
+    width: 100%;
+    font-size: 12px;
+    line-height: 2;
+  }
+
+  .main-bar img{
+    width: 40%;
+  }
+
+  .main-bar a{
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 8px;
+  }
+
+  .side-bar{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+  }
+
+  .origin,.profile{
+    width:49%;
+  }
+
+  .footer-left{
+    display: none;
+  }
+
+  .footer-center,.footer-right{
+    width: 50%;
+  }
+}
+
+/*スマホ表示*/
+@media(max-width:760px){
+  .header-list{
+    display: none;
+  }
+
+  .header-logo img{
+    float: initial;
+  }
+
+  .header{
+    text-align: center;
+  }
+
+  .banner-text-top{
+    font-size: 20px;
+  }
+
+  .banner-text-bottom{
+    font-size: 16px;
+  }
+
+  .banner a{
+    font-size: 12px;
+  }
+
+  h2{
+    font-size:16px;
+  }
+
+  .demo{
+    width:48%;
+  }
+
+  .demo p{
+    font-size: 16px;
+  }
+
+  .main-bar img{
+    width:48%;
+    float: left;
+    margin:10px;
+  }
+
+  .main-bar p{
+    font-size: 12px;
+    padding: 10px 10px 0 10px;
+  }
+
+  .feature-box,.customize-box{
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom:10px;
+  }
+
+  .side-bar{
+    display: none;
+  }
+
+  .footer-right{
+    display: none;
+  }
+
+  .footer-center{
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .footer-last{
+    line-height: initial;
+  }
+}
