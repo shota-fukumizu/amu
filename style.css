@@ -1,3 +1,7 @@
+body {
+font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+}
+
 :root {
     --main-color: #3A3A3A;
     --main-font-color: white;
