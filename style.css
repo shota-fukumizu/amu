@@ -90,7 +90,7 @@ a{
   height: 800px;
   height: auto;
   color: var(--main-font-color);
-  background-image: url(file:///Users/fukusuishouta/AMU1/img/top-banner.png) ;
+  background-image: url(https://github.com/pegaro/amu/blob/master/top-banner.png?raw=true) ;
   margin-bottom: 40px;
   line-height: 1.5;
   padding: 40px 0 50px 0 ;
